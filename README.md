@@ -1,7 +1,7 @@
 foamInstallationTest
 mkdir -p $FOAM_RUN
 cd $FOAM_RUN
-cp -r $FOAM_TUTORIALS/incompressible/simpleFoam/pitxDaily ./
+cp -r $FOAM_TUTORIALS/incompressible/simpleFoam/pitzDaily ./
 cd pitzDaily
-blockmesh
+blockMesh
 simpleFoam
